@@ -320,18 +320,15 @@ h5  {
 #frioul-img{
     height: 75px;
     object-position: bottom;
-    /* height: 100px; */
 }
 
 #notre-img{
     height: 85px;
-    /* height: 170px; */
     object-position: bottom;
 }
 
 #long-img{
     height: 65px;
-    /* height: 130px; */
     object-fit: cover;
     object-position: left;
 }
@@ -349,24 +346,17 @@ h5  {
     padding: 10px;
 }
 
-/* .card-group-2{
-    /* background-color: salmon; */
-/* } */
-
 .card-group-2 section:nth-child(1){
     margin-bottom: 30px;
-    /* background-color: yellow; */
 }
 
 .activities-wrapper{
     display: flex;
     justify-content: space-between;
-    /* background-color: greenyellow; */
 }
 
 .footer-container {
     background-color: white;
-    /* padding-bottom: 4rem; */
 }
 
 .footer {
@@ -407,7 +397,6 @@ h5  {
     }
 
     .filters-wrap {
-       /* border: 1px solid blue; */
        justify-content: space-between;
     }
 
@@ -451,8 +440,6 @@ h5  {
 
 .header {
     padding: 0;
-    /* margin-left: 5%; */
-    /* margin-right: 5%; */
 }
 
 .nav__links {
