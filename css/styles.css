@@ -61,7 +61,7 @@ a {
 .marker {
     height: 50px;
     width: 50px;
-    border-radius: 10px;
+    border-radius: 15px 0px 0px 15px;
     background-color: #e9eaeb;
     text-align: center;
     padding-top: 20px;
@@ -76,12 +76,14 @@ a {
     padding: 17px 15px 12px 15px;
     font-size: larger;
     position: absolute;
+    border-style: none;
+    margin-top: 1px;
 }
 
 .search-bar {
     border: #e9eaeb solid 1px;
     padding: 18px 6px 13px 2px;
-    margin-left: -2px;
+    margin-left: -4px;
     margin-right: -1px;
     margin-bottom: 20px;
 }
@@ -114,6 +116,7 @@ a {
 }
 
 .filter_title {
+    margin-top: 20px;
     margin-right: 10px;
     font-size: large;
 }
@@ -231,6 +234,16 @@ h5  {
     border-radius: 30px;
     width: 31%;
     padding: 10px;
+}
+
+.heading    {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.fa-chart-line:before {
+    content: "\f201";
+    margin-right: 20px;
 }
 
 .squiggle   {
@@ -356,12 +369,12 @@ h5  {
 }
 
 .footer-container {
-    background-color: white;
+    background-color: #e9eaeb;
 }
 
 .footer {
     width: 100%;
-    height: 60vh;
+    /* height: 60vh; */
     background-color: #e9eaeb;
     color: black;
     display: flex;
@@ -373,7 +386,7 @@ h5  {
 .footer-heading {
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
+    margin-right: 6rem;
 }
 
 .footer-heading h2 {
@@ -547,7 +560,7 @@ h5  {
 
 .card-wrapper {
     width: 100%;
-    background-color: #e9eaeb;
+    background-color: #white;
     flex-direction: column;
     align-items: center;
 }
@@ -559,6 +572,7 @@ h5  {
 .accomodations  {
     width: 100%;
     padding: 15px;
+    background-color: white;
 }
 
 .container {
