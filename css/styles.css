@@ -9,7 +9,7 @@
 
 a {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     text-decoration: none;
     color: #0065fc;
@@ -38,8 +38,8 @@ a {
 .nav__links li {
     display: inline-block;
     font-family: "raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    /* font-weight: bold; */
+    font-size: 10px;
     color: #0065fc;
     text-decoration: none;
     padding-top: 30px;
@@ -49,13 +49,18 @@ a {
     border-top: #0065fc solid;
 }
 
-.sign   {
+.signup-nav   {
     font-weight: bold;
 }
 
 .search    {
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.search input::placeholder   {
+    font-size: 0.9rem;
+    padding-left: 10px;
 }
 
 .marker {
