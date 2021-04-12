@@ -235,7 +235,7 @@ h5  {
     transform: translateX(30px);
 }
 
-.popular{
+.popular    {
     background-color: #e9eaeb;
     border-radius: 30px;
     width: 31%;
@@ -374,10 +374,6 @@ h5  {
     justify-content: space-between;
 }
 
-.footer-container {
-    background-color: #e9eaeb;
-}
-
 .footer {
     width: 100%;
     background-color: #e9eaeb;
@@ -456,6 +452,7 @@ h5  {
 
 @media screen and (max-width: 480px) {
 
+
 .header {
     padding: 0;
 }
@@ -466,6 +463,15 @@ h5  {
     margin-right: 0;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.dream  {
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+.downtown   {
+    padding-left: 25px;
 }
 
 #search-icon    {
@@ -541,16 +547,27 @@ h5  {
 .filters {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 5%;
+    padding-top: 15%;
+    padding-left: 25px;
+}
+
+.more-text  {
+    padding: 15px 0 20px 25px;
 }
 
 .section-wrap   {
     flex-direction: column-reverse;
 }
 
+.main   {
+    padding: 0;
+}
+
 .popular {
     background-color: #e9eaeb;
     width: 100%;
+    border-radius: 0;
+    padding: 40px;
 }
 
 
@@ -560,7 +577,7 @@ h5  {
 
 .card-wrapper {
     width: 100%;
-    background-color: white;
+    background-color: unset;
     flex-direction: column;
     align-items: center;
 }
@@ -585,24 +602,25 @@ h5  {
 
 .footer {
     margin: 0;
-    margin-left: -50px;
+    padding-top: 20px;
     padding-bottom: 0;
+    padding-left: 25px;
+    display: block;
 }
 
 .footer-1 {
     margin: 0;
-    margin-left: 5%;
     padding-bottom: 5%;
 }
 
 .footer-2 {
     margin: 0;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     padding-bottom: 5%;
 }
 
 .footer-3 {
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 }
 
