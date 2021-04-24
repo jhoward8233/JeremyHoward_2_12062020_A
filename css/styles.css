@@ -12,7 +12,7 @@ a {
     /* font-weight: 400; */
     font-size: 16px;
     text-decoration: none;
-    color: green;
+    color: #0065fc;
 }
 
 .header, .main {
@@ -480,6 +480,11 @@ h5  {
 
 #search-text    {
     display: none;
+}
+
+.search {
+    margin-top: 50px;
+    margin-left: 60px;
 }
 
 .section-wrap   {
